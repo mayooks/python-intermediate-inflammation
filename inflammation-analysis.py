@@ -32,7 +32,7 @@ if __name__ == "__main__":
     parser.add_argument(
         'infiles',
         nargs='+',
-        help='Input CSV(s) containing inflammation series for each patient')
+        help='Input CSV(s) containing inflammation series for each patienT')
 
     args = parser.parse_args()
 
